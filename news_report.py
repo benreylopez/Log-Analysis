@@ -39,7 +39,7 @@ popular_authors = """
   INNER JOIN
     authors on articles.author = authors.id
   INNER JOIN
-    log on log.path=CONCAT('%', articles.slug, '%')
+    log on log.path=CONCAT('/article/', articles.slug)
   WHERE
     log.status
   LIKE
