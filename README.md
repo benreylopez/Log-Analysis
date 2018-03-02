@@ -21,6 +21,6 @@ Running the program steps
     psql news
     select * from articles;
     
-    If you can seem the table of artcles then you have succesfully loaded the database.
+    If you can see the table of artcles then you have succesfully loaded the database.
     
 5. Run python news_report.py 
